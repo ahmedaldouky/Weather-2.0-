@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historical Weather Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Historical Weather Tracker</h1>
+      <p>We’re fetching the weather conditions in your location 200 years ago...</p>
+      <p id="status">Awaiting location permissions...</p>
+      <p id="temperature"></p>
+      <p id="stop-tracking" style="display: none;">Location tracking has been stopped.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
